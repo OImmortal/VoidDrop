@@ -1,0 +1,35 @@
+# Binários e plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Binário de testes (`go test -c`)
+*.test
+
+# Saída de cobertura e perfis
+*.out
+coverage.html
+coverage.txt
+*.prof
+cpu.prof
+mem.prof
+
+# Diretório de dependências vendored (opcional: remova esta linha se versionar vendor/)
+vendor/
+
+# Go workspace (Go 1.18+)
+go.work
+go.work.sum
+
+# Artefatos de build comuns
+/bin/
+/dist/
+/build/
+
+# Air (live reload) — se usar
+tmp/
+
+# Delve / depuração
+__debug_bin*
